@@ -12,6 +12,33 @@
 		<link rel="stylesheet" href="./assets/css/main.css" />
 		<link rel="icon" type="image/png" href="./assets/favicon.png">
 		<noscript><link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
+		<!-- Clean spacing and section header size for site consistency -->
+		<style>
+  .tiles {
+    margin-bottom: 3.5em !important;
+    gap: 2.5em 2em !important;
+  }
+  header.major h2 {
+    font-size: 2em !important;
+    margin-bottom: 1.2em !important;
+    letter-spacing: -0.5px !important;
+    font-weight: 600 !important;
+  }
+  .tiles + header.major {
+    margin-top: 3.5em !important;
+  }
+  .tiles article {
+    margin-bottom: 0 !important;
+  }
+  @media (max-width: 800px) {
+    .tiles {
+      gap: 1.5em 1em !important;
+    }
+    header.major h2 {
+      font-size: 1.3em !important;
+    }
+  }
+</style>
 	</head>
 	
 	<body class="is-preload">
@@ -72,9 +99,67 @@
 								Access curated and free resources to learn skills that get you ahead.</h1>
 								<p>Explore structured learning paths tailored for beginners, intermediates, and advanced learners. Discover tools, tutorials, and guides in tech, design, AI, and more—completely free and ready to help you grow.</p>
 							</header>
+							<div style="height:2em;"></div>
+							<!-- Group 0: Skills of Successful Professionals -->
+							<header class="major">
+							<h2 style="font-size:2.5em; margin-bottom:0.5em;">Skills of Successful Professionals</h2>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+								<span class="image" style="background: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80') center center/cover no-repeat; min-height: 260px; display: flex; align-items: center; justify-content: center;">
+									<!-- No overlay -->
+									<a href="./storytelling.html" target="_blank" rel="noopener" style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:rgba(0,0,0,0.35);color:#fff;text-decoration:none;">
+										<h2 style="margin:0 auto;">Storytelling</h2>
+										<div class="content" style="margin:0 auto;">
+											<p style="margin:0 auto;">Master the art of communicating ideas and inspiring action through compelling stories.</p>
+										</div>
+									</a>
+								</span>
+								</article>
+								<article class="style2">
+								<span class="image" style="background: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80') center center/cover no-repeat; min-height: 260px; display: flex; align-items: center; justify-content: center;">
+									<a href="#presentation-skills" style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:rgba(0,0,0,0.35);color:#fff;text-decoration:none;">
+										<h2 style="margin:0 auto;">Presentation Skills</h2>
+										<div class="content" style="margin:0 auto;">
+											<p style="margin:0 auto;">Communicate ideas clearly and confidently to engage and persuade your audience.</p>
+										</div>
+									</a>
+								</span>
+								</article>
+								<article class="style3">
+								<span class="image" style="background: url('https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80') center center/cover no-repeat; min-height: 260px; display: flex; align-items: center; justify-content: center;">
+									<a href="#learning-to-learn" style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:rgba(0,0,0,0.35);color:#fff;text-decoration:none;">
+										<h2 style="margin:0 auto;">Learning to Learn</h2>
+										<div class="content" style="margin:0 auto;">
+											<p style="margin:0 auto;">Build the mindset and strategies to acquire new skills efficiently throughout your career.</p>
+										</div>
+									</a>
+								</span>
+								</article>
+								<article class="style4">
+								<span class="image" style="background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80') center center/cover no-repeat; min-height: 260px; display: flex; align-items: center; justify-content: center;">
+									<a href="#emotional-intelligence" style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:rgba(0,0,0,0.35);color:#fff;text-decoration:none;">
+										<h2 style="margin:0 auto;">Emotional Intelligence</h2>
+										<div class="content" style="margin:0 auto;">
+											<p style="margin:0 auto;">Understand and manage your emotions and relationships for professional success.</p>
+										</div>
+									</a>
+								</span>
+								</article>
+								<article class="style5">
+								<span class="image" style="background: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80') center center/cover no-repeat; min-height: 260px; display: flex; align-items: center; justify-content: center;">
+									<a href="#must-have-professional-skills" style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:rgba(0,0,0,0.35);color:#fff;text-decoration:none;">
+										<h2 style="margin:0 auto;">Must-Have Professional Skills</h2>
+										<div class="content" style="margin:0 auto;">
+											<p style="margin:0 auto;">Explore the essential skills every professional needs to succeed in the modern workplace.</p>
+										</div>
+									</a>
+								</span>
+								</article>
+							</section>
 					<!-- Group 1: Fundamentals of Technology -->
 					<header class="major">
-						<h2>Fundamentals of Technology</h2>
+					<h2 style="font-size:2.5em; margin-bottom:0.5em;">Fundamentals of Technology</h2>
 					</header>
 					<section class="tiles">
 						<article class="style1">
@@ -136,7 +221,7 @@
 
 					<!-- Group 2: Core Skills & Tools -->
 					<header class="major">
-						<h2>Core Skills &amp; Tools</h2>
+					<h2 style="font-size:2.5em; margin-bottom:0.5em;">Core Skills &amp; Tools</h2>
 					</header>
 					<section class="tiles">
 						<article class="style5">
@@ -198,12 +283,13 @@
 
 					<!-- Group 3: Technology in Action -->
 					<header class="major">
-						<h2>Technology in Action</h2>
+					<h2 style="font-size:2.5em; margin-bottom:0.5em;">Technology in Action</h2>
 					</header>
 					<section class="tiles">
 						<article class="style5">
 							<span class="image">
 								<img src="./images/pic10.jpg" alt="" />
+					<div style="height:2.5em;"></div>
 							</span>
 							<a href="./generic.html">
 								<h2>Technology in Banking</h2>
